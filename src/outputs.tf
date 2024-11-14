@@ -1,4 +1,14 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "trigger_id" {
+  description = "Glue trigger ID"
+  value       = module.glue_trigger.id
+}
+
+output "trigger_name" {
+  description = "Glue trigger name"
+  value       = module.glue_trigger.name
+}
+
+output "trigger_arn" {
+  description = "Glue trigger ARN"
+  value       = module.glue_trigger.arn
 }
