@@ -1,6 +1,6 @@
 module "glue_workflow" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_workflow_component_name
   bypass    = var.glue_workflow_component_name == null
@@ -16,7 +16,7 @@ module "glue_workflow" {
 
 module "glue_job" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_job_component_name
   bypass    = var.glue_job_component_name == null
