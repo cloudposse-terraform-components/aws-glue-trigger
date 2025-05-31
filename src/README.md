@@ -51,9 +51,9 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_glue_job"></a> [glue\_job](#module\_glue\_job) | cloudposse/stack-config/yaml//modules/remote-state | 1.5.0 |
+| <a name="module_glue_job"></a> [glue\_job](#module\_glue\_job) | cloudposse/stack-config/yaml//modules/remote-state | 1.8.0 |
 | <a name="module_glue_trigger"></a> [glue\_trigger](#module\_glue\_trigger) | cloudposse/glue/aws//modules/glue-trigger | 0.4.0 |
-| <a name="module_glue_workflow"></a> [glue\_workflow](#module\_glue\_workflow) | cloudposse/stack-config/yaml//modules/remote-state | 1.5.0 |
+| <a name="module_glue_workflow"></a> [glue\_workflow](#module\_glue\_workflow) | cloudposse/stack-config/yaml//modules/remote-state | 1.8.0 |
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../../account-map/modules/iam-roles | n/a |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
