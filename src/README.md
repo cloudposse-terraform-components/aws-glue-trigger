@@ -8,7 +8,6 @@ tags:
 # Component: `glue-trigger`
 
 This component provisions Glue triggers.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -34,7 +33,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -104,12 +106,17 @@ No resources.
 | <a name="output_trigger_arn"></a> [trigger\_arn](#output\_trigger\_arn) | Glue trigger ARN |
 | <a name="output_trigger_id"></a> [trigger\_id](#output\_trigger\_id) | Glue trigger ID |
 | <a name="output_trigger_name"></a> [trigger\_name](#output\_trigger\_name) | Glue trigger name |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/trigger) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-trigger&utm_content=)
+
